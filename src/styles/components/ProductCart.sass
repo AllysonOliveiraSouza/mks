@@ -1,0 +1,124 @@
+@use '../variables'
+
+#card-product
+    background-color: variables.$corBranca
+    width: 379px
+    height: 95px
+    margin: auto
+    margin-bottom: 15px
+    border-radius: 8px
+    position: relative
+
+#picture-product
+    float: left
+    width: 25%
+    height: 100%
+    border-radius: 8px 0 0 8px
+    display: flex
+    padding: 15px
+    box-sizing: border-box
+
+#name-product
+    float: left
+    width: 25%
+    height: 100%
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
+
+    #span-name-product
+        width: 100%
+        height: auto
+        font-size: 13px
+        color: variables.$corTextos
+        font-weight: 400
+
+#quantity-product
+    float: left
+    width: 25%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+
+#p-qtd
+    font-size: 5px
+    font-weight: bold
+    color: variables.$corTextos
+
+#wrapper
+    display: table
+
+#group-btn-qtd
+    width: 50px
+    height: 19px
+    border-radius: 4px
+    border: 0.3px solid #BFBFBF
+    display: flex
+    padding-top: 2px
+    padding-bottom: 2px
+    box-sizing: border-box
+    margin: auto
+
+#box-btn-min
+    border: none
+    border-radius: 4px 0 0 4px
+    border-right: 0.2px solid #BFBFBF
+    box-sizing: border-box
+    height: 100%
+    width: 33.3%
+    font-size: 12px
+    font-weight: bold
+    color: variables.$corTextos
+    display: flex
+    justify-content: center
+    align-items: center
+
+#box-span-qtd
+    width: 33.4%
+    border-right: 0.2px solid #BFBFBF
+    box-sizing: border-box
+    font-size: 8px
+    font-weight: bold
+    color: variables.$corTextos
+    display: flex
+    justify-content: center
+    align-items: center
+
+#box-btn-more
+    width: 33.3%
+    border: none
+    border-radius: 0 4px 4px 0
+    height: 100%
+    font-size: 8px
+    font-weight: bold
+    color: variables.$corTextos
+    display: flex
+    justify-content: center
+    align-items: center
+
+#price-products
+    float: left
+    width: 25%
+    height: 100%
+    border-radius: 0 8px 8px 0
+    display: flex
+    justify-content: center
+    align-items: center
+
+#subtotal
+    font-size: 14px
+    font-weight: 700
+
+#btn-close-product-cart
+    position: absolute
+    border: none
+    width: 18px
+    height: 18px
+    background-color: black
+    border-radius: 18px
+    color: variables.$corBranca
+    font-size: 14px
+    right: -4.5px
+    top: -4.5px

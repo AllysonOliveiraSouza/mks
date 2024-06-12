@@ -1,0 +1,62 @@
+@use '../variables'
+
+#container-sc
+    background-color: variables.$corAzul
+    width: 486px
+    height: 100vh
+    position: fixed
+    right: 0
+    top: 0
+    z-index: 1
+    border-left: 2px solid #0000001f
+
+    span
+        color: variables.$corBranca
+        font-size: 27px
+        width: 80px
+        height: 56px
+        font-weight: bold
+
+#btn-close-shopping-cart
+    border: none
+    width: 38px
+    height: 38px
+    background-color: black
+    border-radius: 38px
+    color: variables.$corBranca
+    font-size: 28px
+    position: absolute
+    right: 38px
+    top: 38px
+
+#sub-container-products
+    width: 379px
+    height: 346px
+    margin: auto
+    margin-top: 115px
+    padding-top: 15px
+    box-sizing: border-box
+
+#buy-total
+    width: 100%
+    height: 97px
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+    p
+        font-size: 28px
+        font-weight: 700
+        color: variables.$corBranca
+
+#btn-finalize-purchase
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 486px
+    height: 97px
+    background-color: black
+    color: variables.$corBranca
+    border: none
+    font-size: 28px
+    font-weight: bold
